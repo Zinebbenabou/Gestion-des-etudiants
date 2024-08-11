@@ -7,9 +7,95 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
+    <nav class="sideBar">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./public/images/pngtree-school-logo-png-image_3977360-removebg-preview.png" alt="School Logo">
+                </span>
+                <div class="text header-text">
+                    <h5>
+                        <span class="name">Legend School</span>
+                        <span class="profession">Coding</span>
+                    </h5>
+                </div>
+            </div>
+            <i class="bi bi-caret-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="search-box">
+                        <a href="#" >
+                            <i class="icons bi bi-search"></i>
+                            <input type="search" placeholder="Search ...">
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#" >
+                            <i class="icons bi bi-house"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#" >
+                            <i class="icons bi bi-bell"></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#" >
+                            <i class="icons bi bi-bar-chart-line"></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#" >
+                            <i class="icons bi bi-box-arrow-left"></i>
+                            <span class="text nav-text">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+    <div class="conatiner ">
+        <div id="app">
+            <h1>
+                Liste des etudiants
+            </h1>
+            <div
+                class="table-responsive"
+            >
+                <table
+                    class="table table-primary "
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">age</th>
+                            <th scope="col">note</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list-etudiants">
+                      
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
     
+    
+    
+        
+    
+    </section>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./public/js/app.js"></script>
-
 </body>
 </html>
